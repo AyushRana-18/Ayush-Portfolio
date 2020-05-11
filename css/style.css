@@ -1,0 +1,194 @@
+@import url("https://fonts.googleapis.com/css?family=Roboto:400,500|Rubik:500,700");
+
+@import'utility.css';
+:root{
+    --primary:#fff;
+    --dark:#000000;
+    --gray: #777777;
+    --ternary:#854fee;
+    --secondary:#4458dc;
+}
+header{
+    background:var(--primary);
+    height:"800px";
+
+}
+*{
+    padding:3px;
+    margin: 0px;
+    box-sizing: border-box;
+    font-family: "Rubik", sans-serif;
+    font-weight: 300;
+    -webkit-font-smoothing:antialised;
+}
+.container{
+    max-width: 1152px;
+    padding:0 0;
+    margin: 0 auto;
+}
+header nav .left a{
+    color: var(--dark);
+    text-decoration: none;
+}
+header nav .branding{
+    margin-right:18rem;
+}
+header nav .right a{
+    color: black;
+    text-decoration: none;
+    margin-right:3rem;
+    margin-left:0;
+    font-family: "Rubik", sans-serif;
+  font-weight: 300;
+  color: #000000; 
+  text-transform:uppercase;
+  transition:all 0.3s;
+}
+
+header nav .right a:hover{
+    color:var(--ternary);
+}
+.hero .right img{
+    width:450px;
+}
+.hero .left h5{
+    font-size: 1.6rem;
+    font-family: "Rubik", sans-serif;
+  font-weight: 300;
+  color: #000000; 
+  text-transform:uppercase;
+}
+.hero .left h1{
+    font-size: 4.5rem;
+    font-family: "Rubik", sans-serif;
+  font-weight: 300;
+  color: #000000; 
+  text-transform:uppercase;
+}
+.hero .left h3{
+    font-size: 2.5rem;
+    font-family: "Rubik", sans-serif;
+  font-weight: 300;
+  color: #000000; 
+  text-transform:uppercase;
+  margin-top: 10rem;
+
+}
+.aboutus .right h2{
+    font-size:3.5rem;
+    font-family: "Rubik", sans-serif;
+    font-weight: 400;
+    color: #000000; 
+    text-transform:uppercase;  
+}
+.aboutus .right h6{
+    font-size:1rem;
+    font-family: "Rubik", sans-serif;
+    font-weight: 300;
+    color:var(--gray); 
+    text-transform:uppercase;
+    margin-bottom: 2rem;
+  
+}
+.container1 .left img{
+    margin-top: 2.5rem;
+    margin-bottom: 2.5rem;
+    margin-right: 2.5rem;
+    margin-left:2.5rem;
+    border-color:var(--dark);    
+}
+.container1 .left img:hover{
+    border-color: var(--ternary);
+    border-width: 0.5rem;
+}
+.container1 .right{
+    margin-left:16rem;
+}
+.container1 .right h2{
+    font-size:2rem;
+    font-family: "Rubik", sans-serif;
+    font-weight: 300;
+    color:var(--dark); 
+    text-transform:uppercase;
+    margin-bottom: 0.3rem;
+}
+.container1 .right .call .number h4{
+    font-size:1.4rem;
+    font-family: "Rubik", sans-serif;
+    font-weight: 300;
+    color:var(--dark); 
+    text-transform:uppercase;
+    margin-bottom: 0.3rem;
+    text-decoration:none;
+}
+.container1 .right .call .number h4:hover{
+    color: #854fee;
+}
+.container1 .right .number h5{
+    font-size:1rem;
+    font-family: "Rubik", sans-serif;
+    font-weight: 300;
+    color:var(--ternary); 
+    text-transform:uppercase;
+    margin-bottom: 0.1rem;
+    text-decoration: none;
+}
+.container1 .right .big{
+    font-size: 13rem;
+    font-family: "Rubik", sans-serif;
+    font-weight: 300;
+    color:var(--ternary); 
+    text-transform:uppercase;
+    margin-bottom:0.3rem;
+}
+.container2{
+
+max-width: 1152px;
+padding:0 0;
+margin: 0 auto;
+}
+.container2 h2{
+    font-size:2rem;
+    font-family: "Rubik", sans-serif;
+    font-weight: 300;
+    color:var(--dark); 
+    text-transform:uppercase;
+    margin-bottom: 0.25rem;
+    text-decoration: none;
+    margin-top:10rem;
+    margin-left:25rem;
+}
+.container2 h5{
+    font-size:0.9rem;
+    font-family: "Rubik", sans-serif;
+    font-weight: 300;
+    color:var(--gray); 
+    text-transform:uppercase;
+    margin-bottom: 0.5rem;
+    text-decoration: none;
+    margin-top:0.25rem;
+    margin-left:9rem;
+    margin-right: auto;
+}
+.project{
+    font-size:3rem;
+    color:black;
+    text-transform: uppercase;
+    margin-left: 2rem;
+    margin-top:10rem;
+}
+.pro nav a{
+    color: black;
+    text-decoration: none;
+    margin-right:2rem;
+    margin-left:2rem;
+    font-family: "Rubik", sans-serif;
+  font-weight: 300;
+  color: #000000; 
+  text-transform:uppercase;
+  transition:all 0.3s;
+}
+.pro nav a:hover{
+    color:var(--ternary);
+}
+

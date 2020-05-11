@@ -1,0 +1,39 @@
+.flex{
+    display:flex;
+}
+.items-center{
+    align-items: center;
+}
+.justify{
+    justify-content: center;
+}
+.btn-secondary{
+    color:var(--primary);
+    padding:1rem 4rem;
+    font-size:1rem;
+    font-weight: 600;
+    margin-right:3rem;
+    transition:all .3s ease;
+    border-color:transparent;
+    margin-bottom: 20rem;
+    background-image: linear-gradient(to right, #4458dc 0%, #854fee 100%), radial-gradient(circle at top left, #4458dc, #854fee);
+}
+.btn-ternary{
+    padding:1rem 4rem;
+    color:var(--ternary);
+    background: transparent;
+    font-size:1rem;
+    font-weight: 600;
+    transition:all .3s ease;
+    border-color:var(--ternary);
+}
+.btn-secondary:hover{
+    background:transparent;
+    color:var(--ternary);
+    border-color: var(--ternary);
+}
+.btn-ternary:hover{
+    background-image: linear-gradient(to right, #4458dc 0%, #854fee 100%), radial-gradient(circle at top left, #4458dc, #854fee);
+    border-image: linear-gradient(to right, #4458dc 0%, #854fee 100%), radial-gradient(circle at top left, #4458dc, #854fee);
+    color:var(--primary);
+}
